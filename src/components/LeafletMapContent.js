@@ -1,7 +1,7 @@
 import React from "react";
-import CitiesList from "../components/CitiesList";
+import CitiesList from "./CitiesList";
 import { TileLayer, ZoomControl } from "react-leaflet";
-import { useMapContext } from "./MapContextProvider";
+import { useMapContext } from "../context/MapContextProvider";
 import "leaflet/dist/leaflet.css";
 
 const LeafletMapContent = () => {

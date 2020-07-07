@@ -1,6 +1,6 @@
 import React from "react";
 import { Map } from "react-leaflet";
-import LeafletMapContent from "../context/LeafletMapContent";
+import LeafletMapContent from "./LeafletMapContent";
 
 const LeafletMap = () => {
   return (
